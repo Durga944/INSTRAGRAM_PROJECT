@@ -1,0 +1,153 @@
+
+.main-head{
+    /* margin-left: 30px; */
+    width: 410px;
+    /* width: 100vw; */
+    margin: 0px auto;
+    border: 1px solid #00000029;
+    /* height: 100vh; */
+}
+.main-div{
+    display: flex;
+    margin-top: 23px;
+    justify-content: space-between;
+    /* justify-content: center; */
+    /* margin: 0px; */
+    /* padding: 0px; */
+}
+.main-div p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+.name_eliz{
+    margin-top: 0.1rem;
+}
+.bell-img{
+    width: 20px;
+    height: 20px;  
+    margin-left: 10px;  
+}
+.dot-img{
+    width: 25px;
+    height: 25px;    
+}
+.girl-edit{
+    margin-left: 120px;
+    position: relative;
+}
+.girl{
+    /* border-radius: 50%; */
+    border-radius: 55%;
+    width: 35%;
+    margin-left: 34px;
+}
+.edit{
+    position: absolute;
+    top: 63%;
+    right: 55%;
+}
+.eliz-data{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.eliz{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+.data{
+    display: flex;
+    margin-top: -30px;
+    justify-content: center;
+    align-items: center;
+}
+.Post-32{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;    
+}
+.border{
+
+    border-left: 2px solid #00000029;
+    border-right: 2px solid #00000029;
+    height: 0.5px;
+    /* margin-top: 10px; */
+}
+.name{
+    margin-top: -10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: #666666;
+    font-size: small;
+    /* font-weight:bold; */    
+}
+.num{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: medium;
+    /* font-weight:bold; */
+
+}
+.live{
+    text-align: center;
+    margin-top: -10px;
+    font-family: 'Poppins', sans-serif;
+    color:#000000;
+    font-weight: 400;
+}
+.main-icon{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px 10px 20px;
+    /* border: 1px solid #00000029; */
+    /* width: 388px; */
+    height: 17px;   
+    outline: none;
+}
+.image1{
+    display: flex;
+    max-width: 100%;
+    height:auto;
+    padding: 3px;
+    gap: 1px;
+    margin-left: 6px;
+}
+.image2{
+    margin-top: -5px;
+}
+.main1-div{
+    position: relative;
+    filter: brightness(70%)
+}
+.viedo-icon{
+    position: absolute;
+    right: 7px;
+    top: 7px;
+    width:18px
+}
+.coco-image{
+    width: 125px;
+    height: 155px;
+    margin-bottom: 2px;
+    margin-left: 4px;
+    object-fit: cover;
+}
+.play-icon{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+
+/* @media(max-width:425px) {
+    .main-head{
+        width: 100vw;
+        height: 100vh;
+        max-width:100%;
+        
+    }
+} */
